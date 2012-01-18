@@ -1,3 +1,3 @@
-agenda_template.aux
-agenda_template.out
-agenda_template.log
+*.aux
+*.out
+*.log
