@@ -1,0 +1,125 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{soul}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{wasysym}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\tolerance=1000
+\usepackage{fullpage}
+
+
+\title{Brainstorm}
+\author{Jens Christensen}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section*{Tracking}
+\begin{itemize}
+ 
+  \item depth
+  \item optical flow
+  \item Template matching
+  \item Orientation
+  \item GoodFeaturesToTrack()
+  \item object recognition 
+  \item Multiple cameras
+  \item Multiple objects at the same time
+    \begin{itemize}
+      \item Give the tracked object a unique name
+      \item Mark it (with a rectangle/elipse \ldots)
+    \end{itemize}
+
+  \item Object detection
+    \begin{itemize}
+      \item Find an object and start tracking it
+    \end{itemize}
+
+  \item Draw
+    \begin{itemize}
+        \item ROI (Region of interest)
+        \item Circles/Rectangles \ldots
+        \item Points to be tracked
+        \item Fill region
+    \end{itemize}
+ 
+\end{itemize}
+
+\newpage
+\section*{Image processing}
+
+    \begin{itemize}
+      
+        \item Scaling
+        \item RGB/Grayscale
+        \item Change image type
+        \item Canny
+        \item Hough Lines
+        \item Color Histogram
+        \item FindContours()
+        \item Masking
+
+        \item Filters
+          \begin{itemize}
+            \item Gaussian
+            \item Smooth()
+          \end{itemize}
+          
+    \end{itemize}
+
+
+\section*{Data structures}
+
+    \begin{itemize}
+
+          \item kdtree 
+          \item Octree 
+            \begin{itemize}
+              \item Spatial indexing 
+              \item Nearest neighbor search
+            \end{itemize}
+
+    \end{itemize}
+
+\section*{Calibration}
+
+    \begin{itemize}
+      \item Get actual distance
+      \item Find Reference points
+      \item Use multiple kinects
+    \end{itemize}
+
+\newpage
+\section*{Graphical user interface (GUI)}
+
+    \begin{itemize}
+
+        \item Save data
+        \item Set objects to track
+        \item how to track
+        \item Data
+          \begin{itemize}
+            \item FPS
+            \item Which objects is currently tracked
+            \item 3D map of the path the object has taken
+            \item Coordinates
+          \end{itemize}
+
+    \end{itemize}
+
+\section*{App}
+
+
+
+
+\end{document}
